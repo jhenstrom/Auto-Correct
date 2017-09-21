@@ -1,11 +1,16 @@
-//package spell;
+/*
+Ongoing project: this project aims to spell check given documents against a given dictionary. It will take two arguments. First 
+will be the dictionary to use for the spell check. Eventually, the dictionary will be stored externally and then be refreneced
+rather than having to be read in each time. The Second argument will be the document that you wish to review. The output will be
+a copy of your input file with corrections made.
+
+At the current utility, the program will take a dictionary and then a word to check as arguments, returning the word if it is
+correct, or a suggestion if it is not correct
+*/
+package spell;
 
 import java.io.IOException;
 
-/**
- * A simple main class for running the spelling corrector. This class is not
- * used by the passoff program.
- */
 public class Main {
 
 	/**
