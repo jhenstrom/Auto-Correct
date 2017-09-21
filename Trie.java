@@ -1,4 +1,4 @@
-//package spell;
+package spell;
 
 import java.util.Set;
 import java.util.HashSet;
